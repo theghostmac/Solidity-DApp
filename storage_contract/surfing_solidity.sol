@@ -4,7 +4,7 @@ pragma solidity >=0.6.0 < 0.9.0;
 
 contract simpleStorage {
     // variable initialization
-    uint256 favoriteNumber = 5;
+    uint256 public favoriteNumber = 5;
 
     // function definition
     function store(uint256 _favoriteNumber) public {
